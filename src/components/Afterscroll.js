@@ -8,10 +8,10 @@ class Afterscroll extends Component{
         return(
             <div className='bodyafter'>
                 <audio id="backsong" autoPlay="true" >
-                <source src="\song.wav" type="audio/wav" />
+                <source src="song.wav" type="audio/wav" />
                 </audio>
                 <video id="vid"muted loop autoPlay="true">
-                 <source src="\MVI_4037.mp4" type="video/mp4" />
+                 <source src="MVI_4037.mp4" type="video/mp4" />
                 </video>
                 <h1 className='title'>Laceouss</h1>
                 <a href="https://li.sten.to/laceouss" class="preorder" target="_blank"><spam>L&nbsp;I&nbsp;S&nbsp;T&nbsp;E&nbsp;N</spam></a>
