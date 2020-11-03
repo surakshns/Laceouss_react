@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Laceouss_react-/static/css/main.62593aa7.chunk.css",
+    "main.css": "/Laceouss_react-/static/css/main.aa51ca26.chunk.css",
     "main.js": "/Laceouss_react-/static/js/main.70cdae7f.chunk.js",
     "main.js.map": "/Laceouss_react-/static/js/main.70cdae7f.chunk.js.map",
     "runtime-main.js": "/Laceouss_react-/static/js/runtime-main.f663c8c7.js",
@@ -10,7 +10,7 @@
     "static/js/3.1b38ce75.chunk.js": "/Laceouss_react-/static/js/3.1b38ce75.chunk.js",
     "static/js/3.1b38ce75.chunk.js.map": "/Laceouss_react-/static/js/3.1b38ce75.chunk.js.map",
     "index.html": "/Laceouss_react-/index.html",
-    "static/css/main.62593aa7.chunk.css.map": "/Laceouss_react-/static/css/main.62593aa7.chunk.css.map",
+    "static/css/main.aa51ca26.chunk.css.map": "/Laceouss_react-/static/css/main.aa51ca26.chunk.css.map",
     "static/js/2.ac6d596f.chunk.js.LICENSE.txt": "/Laceouss_react-/static/js/2.ac6d596f.chunk.js.LICENSE.txt",
     "static/media/Afterscroll.css": "/Laceouss_react-/static/media/Prida65.6ebf3a09.otf",
     "static/media/logo.103b5fa1.svg": "/Laceouss_react-/static/media/logo.103b5fa1.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.f663c8c7.js",
     "static/js/2.ac6d596f.chunk.js",
-    "static/css/main.62593aa7.chunk.css",
+    "static/css/main.aa51ca26.chunk.css",
     "static/js/main.70cdae7f.chunk.js"
   ]
 }
