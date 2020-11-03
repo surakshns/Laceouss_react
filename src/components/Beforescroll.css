@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@keyframes animate{
+	0%{
+		background-color: white;
+  }
+	100%{
+		background-color: black;
+	}
+}
+@keyframes spice1 {
+	0%{
+		top: 50%;
+	}
+	50%{
+		transform: rotateY(360deg);
+	}
+	75%{
+		color: red;
+	}
+	100%{
+		top: 50%;
+		color: black;
+	}
+}
+@keyframes scroll {
+	0%{
+		top: -5px;
+		left: -5px;
+		opacity: 0;
+	}
+	25%{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+			border-color: white;
+	}
+	100%{
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+}
+@keyframes scrollmob {
+	0%{
+		top: 5px;
+		left: 5px;
+		opacity: 0;
+	}
+	25%{
+		top: 0px;
+		left: 0px;
+		opacity: 1;
+		border-color: white;
+	}
+	100%{
+		top: -10px;
+		left: -10px;
+		opacity: 0;
+	}
+}
+
+
+
+*{
+	scroll-behavior: smooth;
+}
+/* body{
+	margin: 0px;
+	padding: 0px;
+	animation: 3s animate infinite;
+} */
+#spice1{
+	padding: 15px;
+	font-family: 'Six Caps', sans-serif;
+	font-family: 'Michroma', sans-serif;
+    font-size: 20vw;
+    display: flex;
+    margin-top: 38vh;
+    margin-top: 8vmax;
+    justify-content: center;
+	color: black;
+	font-weight: bold;
+	animation: spice1 3s ease-in-out infinite;
+}
+.scrolldown{
+	position: absolute;
+	bottom: -65px;
+	left: 50%;
+	width: 15px;
+	height: 15px;
+	margin-left: -15px;
+	/* background: red; */
+	transform: translateY(-80px) translateX(50%) rotate(45deg);
+}
+.scrolldown span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+.scrolldown span{
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    animation: scroll 1s  ease-in-out infinite;
+}
+.scrolldown span:nth-child(3){
+	transform: translate(15px,15px);
+		animation-delay: 0s;
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap');
+@font-face {
+	font-family: Laceouss;
+	src: url("C:\Users\SURAKSH\frontend\laceouss\src\assets\Prida65.otf");
+}
+@keyframes spice {
+	0%{
+		background-position: left 0px top 10px;
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
+.bodyafter{
+    margin-top: 20vh;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.title{
+    position: relative;
+    top: 0vh;
+    color: #ff0000;
+	font-family: Laceouss;
+	font-size: 6vw;
+    text-align: center;
+    font-weight: 100;
+	margin: 0px;
+}
+.preorder{
+    top: 37vh;
+    position: relative;
+    left: 62vw;
+	padding: 10px;
+	color: #83ff77;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 27px;
+    border: 1px #83ff77 solid;
+    text-decoration: none;
+}
+.preorder:hover{
+	text-decoration: none;
+	color: red;
+	background-color: black;
+	border: 2px red solid;
+	font-weight: bold;
+}
+.social{
+	display: flex;
+	position: fixed;
+	bottom: 8%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+	/* left: 48%; */
+	transform: translate(50%,-50%);
+	padding: 0;
+}
+.social li{
+    display: flex;
+    justify-content: center;
+	list-style: none;
+}
+.social li a{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	margin: 0 3px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 1px black;
+	z-index: 1;
+}
+.social li a .fa{
+	position: relative;
+	color: 	#C8C8C8;
+	transition: .5s;
+	z-index: 3;
+}
+.social li a:hover .fa{
+	color: #fff;
+	transform: rotateY(360deg);
+	font-size: 25px;
+}
+.social li:nth-child(2) a:hover .fa{
+  color: #F9F6EF;
+}
+.social li:nth-child(1) a:hover .fa{
+  color: #1DB954;
+}
+.social li:nth-child(5) a:hover .fa{
+  color: #4267B2;
+}
+.social li:nth-child(3) a:hover .fa{
+  color: #FF0000;
+}
+.social li:nth-child(4) a:hover .fa{
+  color: #C13584;
+}
+.social li a:before{
+	content: "";
+	position: relative;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background: #f00; */
+	transition: .5s;
+	z-index: 2;
+}
+#vid{
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 13%;
+    left: -0px;
+    background-size: cover;
+    margin: auto;
+  }
+.leftlist{
+    margin: 0;
+    margin-bottom: 5px;
+    padding-left: 2px;
+	padding-top: 5px;
+	color: white;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 35px;
+    display: inline-block;
+	position: absolute;
+	bottom: -12vh;
+	left: 0px;
+}
+.leftlist a{
+    text-decoration: none ;
+}
+.leftlist a li {
+    padding-left: 8px;
+	padding-top: 5px;
+	color: white;
+	font-family: 'Six Caps', sans-serif;
+    font-size: 35px;
+}
+#linecss::before {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: red;
+	display: fixed;
+	position: relative;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 900ms;
+}
+#linecss:hover::before{
+	width: 100%;
+}
+#spice{
+	padding: 10px;
+	font-family: 'Six Caps', sans-serif;
+	font-family: 'Michroma', sans-serif;
+	font-size: 15px;
+    position: absolute;
+    right: 0px;
+	bottom: -12vh;
+	color: rgba(255, 225, 225, 0.1);
+	background-image: url('https://images.pond5.com/huge-blood-splash-footage-000129538_prevstill.jpeg');
+    -webkit-background-clip: text;
+    text-decoration: none;
+	animation: spice 15s linear infinite;
+	background-repeat: repeat-x repeat-y;
+}
+.pp{
+	position: absolute;
+	bottom: -12%;
+	left: 51%;
+	color: #606060;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 10px;
+	text-decoration-style: solid;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.tc{
+	position: absolute;
+	bottom: -12%;
+    right: 50%;
+	color: #606060;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 10px;
+	text-decoration-style: solid;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.ppandtc{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 0px) and (max-width: 575px){
+    .title{
+        top: 8vh;
+        font-size: 10vw;
+    }
+}
