@@ -209,6 +209,16 @@ body{
 @media (min-width: 0px) and (max-width: 575px){
     .title{
         top: 8vh;
-        font-size: 10vw;
-    }
+        font-size: 12vw;
+	}
+	.leftlist{
+		bottom: 16vh;
+	}
+	.leftlist a li {
+		padding: 10px;
+		font-size: 30px;
+	}
+	#spice{
+		bottom: 16vh;
+	}
 }
