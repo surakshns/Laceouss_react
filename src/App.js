@@ -10,13 +10,14 @@ class App extends Component{
   state = {
     scrolling:false,
   }
-  
-  //   window.addEventListener('scroll', this.handleScroll, true);
-  // }
+  method(){
+    window.addEventListener('scroll', this.handleScroll, true);
+    console.log("hey");
+  }
    
 
-componentWillMount(){
-  window.addEventListener('scroll', (Event) = () => {
+
+  handleScroll = () => {
    if(window.scrollY >0 && this.state.scrolling === false){
     console.log(window.scrollY);
      this.setState({scrolling:true});
@@ -24,13 +25,12 @@ componentWillMount(){
    }else if (window.scrollY === 0 && this.state.scrolling === true) {
    this.setState({scrolling:false});
    }
-})
 }
 
 
   render(){
   return (
-    <div className="App">
+    <div className="App" onScroll={this.method()}>
       {
       this.state.scrolling ? <Afterscroll /> : <Beforescroll />
       
