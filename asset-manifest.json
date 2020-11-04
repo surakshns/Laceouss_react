@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Laceouss_react-/static/css/main.86f6cfd5.chunk.css",
-    "main.js": "/Laceouss_react-/static/js/main.70cdae7f.chunk.js",
-    "main.js.map": "/Laceouss_react-/static/js/main.70cdae7f.chunk.js.map",
+    "main.css": "/Laceouss_react-/static/css/main.2580c809.chunk.css",
+    "main.js": "/Laceouss_react-/static/js/main.0ad5712a.chunk.js",
+    "main.js.map": "/Laceouss_react-/static/js/main.0ad5712a.chunk.js.map",
     "runtime-main.js": "/Laceouss_react-/static/js/runtime-main.f663c8c7.js",
     "runtime-main.js.map": "/Laceouss_react-/static/js/runtime-main.f663c8c7.js.map",
     "static/js/2.ac6d596f.chunk.js": "/Laceouss_react-/static/js/2.ac6d596f.chunk.js",
@@ -10,15 +10,14 @@
     "static/js/3.1b38ce75.chunk.js": "/Laceouss_react-/static/js/3.1b38ce75.chunk.js",
     "static/js/3.1b38ce75.chunk.js.map": "/Laceouss_react-/static/js/3.1b38ce75.chunk.js.map",
     "index.html": "/Laceouss_react-/index.html",
-    "static/css/main.86f6cfd5.chunk.css.map": "/Laceouss_react-/static/css/main.86f6cfd5.chunk.css.map",
+    "static/css/main.2580c809.chunk.css.map": "/Laceouss_react-/static/css/main.2580c809.chunk.css.map",
     "static/js/2.ac6d596f.chunk.js.LICENSE.txt": "/Laceouss_react-/static/js/2.ac6d596f.chunk.js.LICENSE.txt",
-    "static/media/Afterscroll.css": "/Laceouss_react-/static/media/Prida65.6ebf3a09.otf",
-    "static/media/logo.103b5fa1.svg": "/Laceouss_react-/static/media/logo.103b5fa1.svg"
+    "static/media/Afterscroll.css": "/Laceouss_react-/static/media/Prida65.6ebf3a09.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.f663c8c7.js",
     "static/js/2.ac6d596f.chunk.js",
-    "static/css/main.86f6cfd5.chunk.css",
-    "static/js/main.70cdae7f.chunk.js"
+    "static/css/main.2580c809.chunk.css",
+    "static/js/main.0ad5712a.chunk.js"
   ]
 }
