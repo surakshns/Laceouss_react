@@ -212,13 +212,13 @@ body{
         font-size: 12vw;
 	}
 	.leftlist{
-		bottom: -18vh;
+		bottom: -28vh;
 	}
 	.leftlist a li {
 		padding: 10px;
 		font-size: 30px;
 	}
 	#spice{
-		bottom: -18vh;
+		bottom: -28vh;
 	}
 }
