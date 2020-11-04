@@ -16,7 +16,7 @@ class App extends Component{
   }
 
   componentWillUnmount() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
   handleScroll = () => {
    if(window.scrollY >0 && this.state.scrolling == false){
