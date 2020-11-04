@@ -1,17 +1,18 @@
 
-import React,{ useEffect } from 'react';
+import React,{ Component,useEffect } from 'react';
 import Beforescroll from './components/Beforescroll';
 import Afterscroll from './components/Afterscroll';
 import './components/Beforescroll.css';
 import './components/Afterscroll.css';
 import './App.css';
 
-
-function App(){
+class App extends Component{
   state = {
     scrolling:false,
   }
-
+constructor () {
+  
+  
   useEffect(()=>{
     window.addEventListener('scroll', this.handleScroll, true);
   });
@@ -27,6 +28,9 @@ function App(){
    this.setState({scrolling:false});
    }
 }
+}
+
+  render(){
   return (
     <div className="App">
       {
@@ -36,4 +40,6 @@ function App(){
       </div>
   );
 }
+}
+
 export default App;
