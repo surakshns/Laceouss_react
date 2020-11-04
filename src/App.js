@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import React,{ Component } from 'react';
+
+import React,{ useEffect } from 'react';
 import Beforescroll from './components/Beforescroll';
 import Afterscroll from './components/Afterscroll';
 import './components/Beforescroll.css';
 import './components/Afterscroll.css';
+import './App.css';
 
 
 function App{
