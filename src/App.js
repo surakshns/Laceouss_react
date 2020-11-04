@@ -20,8 +20,6 @@ class App extends Component{
     console.log(window.scrollY);
      this.setState({scrolling:true});
      console.log(this.state.scrolling);
-   }else if (window.scrollY === 0 && this.state.scrolling === true) {
-   this.setState({scrolling:false});
    }
 }
 
