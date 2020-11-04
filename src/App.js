@@ -10,17 +10,21 @@ class App extends Component{
   state = {
     scrolling:false,
   }
-  constructor(){
-    super();
-    window.addEventListener('scroll', this.handleScroll, true);
-  }
+  
+  //   window.addEventListener('scroll', this.handleScroll, true);
+  // }
+   
 
-  handleScroll = () => {
+componentWillMount(){
+  window.addEventListener('scroll', (Event) = () => {
    if(window.scrollY >0 && this.state.scrolling === false){
     console.log(window.scrollY);
      this.setState({scrolling:true});
      console.log(this.state.scrolling);
+   }else if (window.scrollY === 0 && this.state.scrolling === true) {
+   this.setState({scrolling:false});
    }
+})
 }
 
 
