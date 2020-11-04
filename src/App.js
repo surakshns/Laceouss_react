@@ -6,9 +6,12 @@ import './components/Beforescroll.css';
 import './components/Afterscroll.css';
 import './App.css';
 
-useEffect(()=>{
-  window.addEventListener('scroll', this.handleScroll, true);
-});
+function scrol() {
+  useEffect(()=>{
+    window.addEventListener('scroll', this.handleScroll, true);
+  });
+}
+scrol();
 
 class App extends Component{
   state = {
