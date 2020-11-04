@@ -1,5 +1,3 @@
-import React , {Components} from 'react';
-
 const Links = [
     {
         link: 'https://open.spotify.com/artist/730Ftkfj9okp1W3A5iiUeo?si=08w25ht7RNaC9C0844XkuQ',

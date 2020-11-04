@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import React,{ Component } from 'react';
 import Beforescroll from './components/Beforescroll';
 import Afterscroll from './components/Afterscroll';
 import './components/Beforescroll.css';
 import './components/Afterscroll.css';
+import './App.css';
 
 
 class App extends Component{
@@ -15,15 +14,15 @@ class App extends Component{
     window.addEventListener('scroll', this.handleScroll, true);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
+  componentDidUpdate() {
+    window.addEventListener('scroll', this.handleScroll,true);
   }
   handleScroll = () => {
-   if(window.scrollY >0 && this.state.scrolling == false){
+   if(window.scrollY >0 && this.state.scrolling === false){
     console.log(window.scrollY);
      this.setState({scrolling:true});
      console.log(this.state.scrolling);
-   }else if (window.scrollY == 0 && this.state.scrolling == true) {
+   }else if (window.scrollY === 0 && this.state.scrolling === true) {
    this.setState({scrolling:false});
    }
 }
