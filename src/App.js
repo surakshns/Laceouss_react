@@ -10,13 +10,11 @@ class App extends Component{
   state = {
     scrolling:false,
   }
-  componentDidMount() {
+  constructor(){
+    super();
     window.addEventListener('scroll', this.handleScroll, true);
   }
 
-  componentDidUpdate() {
-    window.addEventListener('scroll', this.handleScroll,true);
-  }
   handleScroll = () => {
    if(window.scrollY >0 && this.state.scrolling === false){
     console.log(window.scrollY);
