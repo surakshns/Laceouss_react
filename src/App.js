@@ -6,19 +6,15 @@ import './components/Beforescroll.css';
 import './components/Afterscroll.css';
 import './App.css';
 
+useEffect(()=>{
+  window.addEventListener('scroll', this.handleScroll, true);
+});
+
 class App extends Component{
   state = {
     scrolling:false,
   }
-constructor () {
   
-  
-  useEffect(()=>{
-    window.addEventListener('scroll', this.handleScroll, true);
-  });
-  
-
-
   handleScroll = () => {
    if(window.scrollY >0 && this.state.scrolling == false){
     console.log(window.scrollY);
@@ -27,7 +23,6 @@ constructor () {
    }else if (window.scrollY == 0 && this.state.scrolling == true) {
    this.setState({scrolling:false});
    }
-}
 }
 
   render(){
