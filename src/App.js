@@ -7,7 +7,7 @@ import './components/Afterscroll.css';
 import './App.css';
 
 
-function App{
+function App(){
   state = {
     scrolling:false,
   }
@@ -27,9 +27,6 @@ function App{
    this.setState({scrolling:false});
    }
 }
-
-
-  render(){
   return (
     <div className="App">
       {
@@ -38,6 +35,5 @@ function App{
       }   
       </div>
   );
-}
 }
 export default App;
