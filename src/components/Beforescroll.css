@@ -111,3 +111,8 @@
 	transform: translate(15px,15px);
 		animation-delay: 0s;
 }
+@media (min-width: 0px) and (max-width: 575px){
+	#spice1{
+		margin-top: 35vh;
+	}
+}
