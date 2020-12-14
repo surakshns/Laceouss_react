@@ -180,7 +180,7 @@ body{
 }
 .pp{
 	position: absolute;
-	bottom: -12%;
+	bottom: -10%;
 	left: 51%;
 	color: #606060;
 	text-align: center;
@@ -192,7 +192,7 @@ body{
 }
 .tc{
 	position: absolute;
-	bottom: -12%;
+	bottom: -10%;
     right: 50%;
 	color: #606060;
 	text-align: center;

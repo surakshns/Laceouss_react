@@ -8,13 +8,17 @@ import './App.css';
 
 class App extends Component{
   state = {
-    scrolling:false,
+    scrolling:true,
   }
+  
   method(){
-    window.addEventListener('scroll', this.handleScroll, true);
+    window.addEventListener('scroll', this.handleScroll);
     console.log("hey");
   }
-   
+
+  componentDidMount(){
+    this.setState({scrolling:false});
+  }
 
 
   handleScroll = () => {
@@ -33,7 +37,6 @@ class App extends Component{
     <div className="App" onScroll={this.method()}>
       {
       this.state.scrolling ? <Afterscroll /> : <Beforescroll />
-      
       }   
       </div>
   );
