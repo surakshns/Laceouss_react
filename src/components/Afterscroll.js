@@ -3,6 +3,7 @@ import Links from './links.js';
 
 
 
+
 class Afterscroll extends Component{
     render(){
         return(
@@ -10,7 +11,7 @@ class Afterscroll extends Component{
                 <audio id="backsong" autoPlay={true} >
                 <source src="song.wav" type="audio/wav" />
                 </audio>
-                <video id="vid"muted loop autoPlay={true}>
+                <video id="vid" muted loop autoPlay={true}>
                  <source src="MVI_4037.mp4" type="video/mp4" />
                 </video>
                 <h1 className='title'>Laceouss</h1>
