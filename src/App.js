@@ -12,20 +12,15 @@ class App extends Component{
   }
   
   method(){
-    window.addEventListener('scroll', this.handleScroll);
-    console.log("hey");
+    window.addEventListener('scroll', this.componentDidUpdate);
   }
 
   componentDidMount(){
     this.setState({scrolling:false});
   }
-
-
-  handleScroll = () => {
+  componentDidUpdate=()=>{
    if(window.scrollY >0 && this.state.scrolling === false){
-    console.log(window.scrollY);
      this.setState({scrolling:true});
-     console.log(this.state.scrolling);
    }else if (window.scrollY === 0 && this.state.scrolling === true) {
    this.setState({scrolling:false});
    }
@@ -34,7 +29,7 @@ class App extends Component{
 
   render(){
   return (
-    <div className="App" onScroll={this.method()}>
+    <div className="App" onChange={this.method()}>
       {
       this.state.scrolling ? <Afterscroll /> : <Beforescroll />
       }   
