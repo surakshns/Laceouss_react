@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Laceouss_react/static/css/main.c0ebfa30.chunk.css",
-    "main.js": "/Laceouss_react/static/js/main.a604ea30.chunk.js",
-    "main.js.map": "/Laceouss_react/static/js/main.a604ea30.chunk.js.map",
-    "runtime-main.js": "/Laceouss_react/static/js/runtime-main.3ae4a037.js",
-    "runtime-main.js.map": "/Laceouss_react/static/js/runtime-main.3ae4a037.js.map",
-    "static/js/2.ac6d596f.chunk.js": "/Laceouss_react/static/js/2.ac6d596f.chunk.js",
-    "static/js/2.ac6d596f.chunk.js.map": "/Laceouss_react/static/js/2.ac6d596f.chunk.js.map",
-    "static/js/3.1b38ce75.chunk.js": "/Laceouss_react/static/js/3.1b38ce75.chunk.js",
-    "static/js/3.1b38ce75.chunk.js.map": "/Laceouss_react/static/js/3.1b38ce75.chunk.js.map",
+    "main.css": "/Laceouss_react/static/css/main.5a7a726e.chunk.css",
+    "main.js": "/Laceouss_react/static/js/main.4275b498.chunk.js",
+    "main.js.map": "/Laceouss_react/static/js/main.4275b498.chunk.js.map",
+    "runtime-main.js": "/Laceouss_react/static/js/runtime-main.ca592e45.js",
+    "runtime-main.js.map": "/Laceouss_react/static/js/runtime-main.ca592e45.js.map",
+    "static/js/2.636a28e5.chunk.js": "/Laceouss_react/static/js/2.636a28e5.chunk.js",
+    "static/js/2.636a28e5.chunk.js.map": "/Laceouss_react/static/js/2.636a28e5.chunk.js.map",
+    "static/js/3.49af7ccf.chunk.js": "/Laceouss_react/static/js/3.49af7ccf.chunk.js",
+    "static/js/3.49af7ccf.chunk.js.map": "/Laceouss_react/static/js/3.49af7ccf.chunk.js.map",
     "index.html": "/Laceouss_react/index.html",
-    "static/css/main.c0ebfa30.chunk.css.map": "/Laceouss_react/static/css/main.c0ebfa30.chunk.css.map",
-    "static/js/2.ac6d596f.chunk.js.LICENSE.txt": "/Laceouss_react/static/js/2.ac6d596f.chunk.js.LICENSE.txt",
+    "static/css/main.5a7a726e.chunk.css.map": "/Laceouss_react/static/css/main.5a7a726e.chunk.css.map",
+    "static/js/2.636a28e5.chunk.js.LICENSE.txt": "/Laceouss_react/static/js/2.636a28e5.chunk.js.LICENSE.txt",
     "static/media/Afterscroll.css": "/Laceouss_react/static/media/Prida65.6ebf3a09.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ae4a037.js",
-    "static/js/2.ac6d596f.chunk.js",
-    "static/css/main.c0ebfa30.chunk.css",
-    "static/js/main.a604ea30.chunk.js"
+    "static/js/runtime-main.ca592e45.js",
+    "static/js/2.636a28e5.chunk.js",
+    "static/css/main.5a7a726e.chunk.css",
+    "static/js/main.4275b498.chunk.js"
   ]
 }
